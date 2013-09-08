@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/field"
+        android:layout_width="289dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button"
+        android:ems="10"
+        android:hint="@string/text_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="94dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/button_text" />
+
+    <Button
+        android:id="@+id/buttonmat"
+         android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/field"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="14dp"
+        android:maxHeight="99px"
+        android:maxWidth="99px"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/buttonmat"
+        android:text="Amey TEst1" />
+
+</RelativeLayout>
